@@ -1,0 +1,16 @@
+body {
+    padding: 20px;
+}
+
+.timer-value {
+    font-weight: bold;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.hidden {
+    display: none;
+}

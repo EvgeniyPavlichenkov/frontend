@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/styles/font.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/todo.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">Список дел</h1>
+        <div class="new-task wrapper__new-task">
+            <span class="new-task__icon">+</span>
+            <span class="new-task__label" id="new-task-add">Добавить новую задачу</span>
+        </div>
+    </div>
+
+    <div class="new-task-modal new-task-modal_hidden" id="new-task-modal">
+        <div class="new-task-modal__content">
+            <label class="new-task-modal__label" for="new-task-title">Название</label>
+            <input class="new-task-modal__title" id="new-task-title" type="text">
+            <div class="new-task-modal__buttons">
+                <button id="new-task-save">Сохранить</button>
+                <button id="new-task-cancel">Отменить</button>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/todo.js"></script>
+</body>
+</html>

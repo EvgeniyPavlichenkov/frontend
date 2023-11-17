@@ -1,0 +1,84 @@
+body {
+    font-family: Montserrat;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+}
+
+.wrapper__new-task {
+    margin-top: 50px;
+}
+
+.title {
+    font-size: 60px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.new-task {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.new-task:hover .new-task__label {
+    text-decoration: underline;
+}
+
+.new-task__icon {
+    align-items: center;
+    background-color: #B47AEA;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    font-size: 24px;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+}
+
+.new-task__label {
+    color: #B47AEA;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.new-task-modal {
+    align-items: center;
+    background-color: #0000008c;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.new-task-modal_hidden {
+    display: none;
+}
+
+.new-task-modal__content {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 30px;
+}
+
+.new-task-modal__title {
+    border: 1px solid #868686;
+    border-radius: 4px;
+    font-size: 24px;
+}
+
+.new-task-modal__buttons {
+    display: flex;
+    gap: 5px;
+}
